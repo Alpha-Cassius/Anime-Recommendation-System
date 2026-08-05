@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestial Anime Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>Celestial Anime</h1>
+            <p>Discover your next masterpiece among the stars.</p>
+        </header>
+        
+        <div class="search-container" style="position: relative; width: 100%; max-width: 600px; z-index: 100;">
+            <div style="display: flex; width: 100%; gap: 1rem;">
+                <input type="text" id="search-input" name="search_anime" placeholder="Enter an anime (e.g. Kimi no Na wa.)" autocomplete="new-password" spellcheck="false" />
+                <button id="search-btn">Discover</button>
+            </div>
+            <div id="autocomplete-list" class="autocomplete-items hidden"></div>
+        </div>
+
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Consulting the heavens...</p>
+        </div>
+
+        <div id="message" class="hidden"></div>
+
+        <div id="results-grid" class="grid hidden">
+            <!-- Results injected via JS -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

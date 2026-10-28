@@ -1,4 +1,4 @@
-```markdown
+
 <div align="center">
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8eUcJILxbLFmKQXfNgofWHjNOD6NhYYgAR712OV4SUA&s=10" width="700" alt="Celestial Anime Recommendation System Interface" style="border-radius: 15px;" />
